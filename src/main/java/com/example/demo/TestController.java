@@ -34,7 +34,7 @@ public class TestController {
 		return "hello";
 	} 
 	
-	@RequestMapping("/warn") 
+	@RequestMapping("/warn")
 	public String warn() {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
