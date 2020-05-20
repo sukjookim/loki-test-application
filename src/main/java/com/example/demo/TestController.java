@@ -20,7 +20,7 @@ public class TestController {
 	public String debug() {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		logger.info("debug Level 테스트"); 
+		logger.debug("debug Level 테스트"); 
 
 		return "hello";
 	} 
@@ -29,7 +29,7 @@ public class TestController {
 	public String error() {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		logger.info("error Level 테스트"); 
+		logger.error("error Level 테스트"); 
 
 		return "hello";
 	} 
@@ -38,7 +38,7 @@ public class TestController {
 	public String warn() {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		logger.info("warn Level 테스트"); 
+		logger.warn("warn Level 테스트"); 
 
 		return "hello";
 	} 
