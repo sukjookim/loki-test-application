@@ -9,36 +9,36 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 	@RequestMapping("/info")
 	public String main() {
-		//Logger logger = LoggerFactory.getLogger(this.getClass());
+		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		//logger.info("info Level 테스트"); 
+		logger.info("info Level 테스트"); 
 
 		return "hello";
 	} 
 	
 	@RequestMapping("/debug")
 	public String debug() {
-		//Logger logger = LoggerFactory.getLogger(this.getClass());
+		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		//logger.info("debug Level 테스트"); 
+		logger.info("debug Level 테스트"); 
 
 		return "hello";
 	} 
 	
 	@RequestMapping("/err")
 	public String error() {
-		//Logger logger = LoggerFactory.getLogger(this.getClass());
+		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		//logger.info("error Level 테스트"); 
+		logger.info("error Level 테스트"); 
 
 		return "hello";
 	} 
 	
 	@RequestMapping("/warn") 
 	public String warn() {
-		//Logger logger = LoggerFactory.getLogger(this.getClass());
+		Logger logger = LoggerFactory.getLogger(this.getClass());
 		
-		//logger.info("warn Level 테스트"); 
+		logger.info("warn Level 테스트"); 
 
 		return "hello";
 	} 
